@@ -30,4 +30,3 @@ print('Test Loss: {}; Test Accuracy: {}'.format(test_loss, round(float(test_accu
 
 #save the check point
 utils.save_checkpoint(model, criterion, optimizer, train_dataset)
-
